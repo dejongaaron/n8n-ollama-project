@@ -10,4 +10,4 @@ I will post more about this project and will make it a public repository.
 
 The n8n server I am doing is a VPS from Hostinger that I am using on an Ubuntu Server. There are some issues with my workflow 
 that I am working on and will provide more information regarding the three workflows that I am doing. I added another workflow to
-provide light-hearted humor with inca inspired jokes about things like llamas and cocoa leaves since I am using Ollama as my AI.
+provide light-hearted humor with Inca inspired jokes about things like llamas and cocoa leaves since I am using Ollama as my AI.
