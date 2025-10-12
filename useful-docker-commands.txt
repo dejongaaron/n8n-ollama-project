@@ -1,0 +1,13 @@
+docker run [options] <image_name> [command]: Creates and runs a new container from an image.
+docker run -d <image_name>: Runs a container in detached mode (background).
+docker run -p <host_port>:<container_port> <image_name>: Maps a host port to a container port.
+docker run --name <container_name> <image_name>: Assigns a name to the container.
+docker ps: Lists currently running containers.
+docker ps -a: Lists all Docker containers (running and stopped).
+docker start <container_name_or_id>: Starts one or more stopped containers.
+docker stop <container_name_or_id>: Stops one or more running containers.
+docker restart <container_name_or_id>: Restarts one or more containers.
+docker rm <container_name_or_id> or docker container rm <container_name_or_id>: Removes one or more stopped containers.
+docker exec -it <container_name_or_id> <command>: Executes a command inside a running container (e.g., docker exec -it mycontainer sh to open a shell).
+docker logs <container_name_or_id>: Fetches and follows the logs of a container.
+docker inspect <container_name_or_id>: Displays detailed information about a container.
