@@ -1,0 +1,15 @@
+Model Management:
+ollama run <model>: Runs the specified model. If the model is not already downloaded, Ollama will automatically pull it.
+ollama pull <model>: Downloads a model from the Ollama registry without running it.
+ollama list: Lists all models downloaded to your system.
+ollama rm <model>: Removes a specified model from your system.
+ollama create <model_name> -f <Modelfile_path>: Creates a new model based on a Modelfile, allowing for custom configurations.
+ollama push <model>: Uploads a model to the Ollama registry.
+ollama cp <source_model> <destination_model>: Copies a model, creating a new reference without duplicating the full file.
+Server and Running Models:
+ollama serve: Starts the Ollama server (usually runs as a service, but can be run interactively for specific purposes).
+ollama ps: Shows currently running models.
+ollama stop <model>: Stops a model that is currently running.
+Model Information and Interaction:
+ollama show <model>: Displays detailed information about a specific model, such as its Modelfile, parameters, and system prompt.
+ollama run <model> <prompt>: Runs a model and provides a prompt for interaction.
