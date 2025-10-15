@@ -1,0 +1,22 @@
+
+To run Ollama using only your CPU, execute the following command in your terminal:
+Code
+
+    docker run -d -p 11434:11434 --name ollama -v ollama_data:/root/.ollama ollama/ollama
+-d: Runs the container in detached mode (in the background).
+-p 11434:11434: Maps port 11434 from the container to port 11434 on your host machine.
+--name ollama: Assigns the name "ollama" to your container for easier management.
+-v ollama_data:/root/.ollama: Creates a named volume ollama_data and mounts it to /root/.ollama inside the container. This ensures your models and data persist even if you stop or remove the container.
+ollama/ollama: Specifies the official Ollama Docker image to use.
+
+Pull and run models.
+Once the Ollama container is running, you can pull and run models within the container. To interact with the Ollama instance, you can use docker exec:
+Code
+
+    docker exec -it ollama ollama pull llama3
+    docker exec -it ollama ollama run llama3
+docker exec -it ollama: Executes a command inside the "ollama" container in interactive mode.
+ollama pull llama3: Pulls the Llama 3 model.
+ollama run llama3: Starts an interactive session with the Llama 3 model.
+
+  You can also use Docker Compose for a more structured setup, especially when combining Ollama with other services like a web UI.
