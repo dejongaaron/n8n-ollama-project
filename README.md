@@ -19,16 +19,6 @@ Successfully changed the Discord webhook and connected to the Ollama service how
 Created a docker instance for ollama again (had it running but crashed my VPS so this is from the reimage). I am working on the docker exec commands to pull the right engine along with changing the docker_compose.yml file. I will update on the result of my troubleshooting.
 
 # update for 10-15-25
-# Lessons Learned so Far
-# 1. Understand Docker and how you need a container of
-#    Ollama before connecting the Ollama Chat Model.
-# 2. Understand the Docker and Ollama commands to 
-#    troubleshoot the n8n VPS.
-# 3. Taking out the docker containers doesn't work unless 
-#    you reimage the VPS and restart the image.
-# 4. Understand how web scraping and webhooks work and the
-#    differences of the two.
-# 5. Understand the docker_compose.yml file and what it 
-#    does.
-# 6. Understand how n8n workflows work (triggers, modules, 
-#    etc.)
+Lessons Learned so Far
+
+Understand Docker and how you need a container of Ollama before connecting the Ollama Chat Model. Understand the Docker and Ollama commands to troubleshoot the n8n VPS. Taking out the docker containers doesn't work unless you reimage the VPS and restart the image.Understand how web scraping and webhooks work and the differences of the two. Understand the docker_compose.yml file and what it does. Understand how n8n workflows work (triggers, modules, etc.)
