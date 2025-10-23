@@ -22,3 +22,16 @@ Created a docker instance for ollama again (had it running but crashed my VPS so
 Lessons Learned so Far
 
 Understand Docker and how you need a container of Ollama before connecting the Ollama Chat Model. Understand the Docker and Ollama commands to troubleshoot the n8n VPS. Taking out the docker containers doesn't work unless you reimage the VPS and restart the image.Understand how web scraping and webhooks work and the differences of the two. Understand the docker_compose.yml file and what it does. Understand how n8n workflows work (triggers, modules, etc.)
+
+# update for 10-23-25
+I have made the AI Agent function correctly, however I am in a learning more process. This project has turned into more of a hobby project and has allowed me to get more experience and more training on Prompt Engineering, n8n, Docker, and Ollama. I am studying more to get better at these technologies. 
+
+Udemy courses that I am using to gain this knowledge.
+Docker for the Absolute Beginner - Hands-on - DevOps - 36% complete
+n8n Automation: Build AI Agents, APIs & No-code Workflows - 10% complete
+Mastering Ollama: Build Private Local LLM Apps with Python - 14% complete
+Complete Prompt Engineering for AI Bootcamp (2025) - 16% complete
+
+As this project is a hobby based project I will be updating the status every once in a while. I will post my prompts and n8n workflows when completed.
+
+
