@@ -1,0 +1,15 @@
+Use the provided workflow to convert the input data into XML and post it on Discord using the webhook and credentials in the Discord node. After the conversion use the XML node which converts the data from JSON to XML. After this is done post the data to Discord. The ultimate goal is to use this workflow as a news aggregator to post the RSS Feeds on Discord.
+
+You are a helpful assistant that will help me to automate the workflow that I have provided in n8n. The main objective is to use the four RSS Feeds to generate data that you will then post on Discord. Your task is to automate this n8n workflow and do a news aggregator to post the news on Discord.
+
+The workflow is a series of steps that you will follow to post on Discord.
+
+1) When a chat message is received use the chat trigger to kick off the four RSS Feeds which are named Krebs on Security, Hacker News, Bleeping Computer, and CS Hub.
+
+2) Krebs on Security and Hacker News are on Edit Fields 1 that will edit the fields to allow for the items of creator, title, content, and link into the next node which is the Limit Node. The Limit Node makes sure that the data is limited to ten news content items. The other two, Bleeping Computer and CS Hub are on Edit Fields 2 which is also going into the Limit Node.
+
+3) The XML Node is then used to convert the JSON into XML to provide you with the XML data that is needed to post on Discord. Use this to post on Discord using the Discord Node. 
+
+4) For the Discord Node you will need to see if the Discord Server is up. To do this you can use the HTTP Request tool that is an HTTP GET request to my channel. If there is no data then it is not up and the Discord Node will fail. This is not your fault, it is a Discord issue and something that will not be able to be fixed.
+
+5) Once the HTTP Request has some data gathered from it, there will be a    
