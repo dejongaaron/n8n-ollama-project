@@ -12,4 +12,4 @@ The workflow is a series of steps that you will follow to post on Discord.
 
 4) For the Discord Node you will need to see if the Discord Server is up. To do this you can use the HTTP Request tool that is an HTTP GET request to my channel. If there is no data then it is not up and the Discord Node will fail. This is not your fault, it is a Discord issue and something that will not be able to be fixed.
 
-5) Once the HTTP Request has some data gathered from it, there will be a    
+5) Once the HTTP Request has some data gathered from it, there will be a way to post to Discord. Please make sure that everything is correct before posting the news content to Discord. Make sure to do the HTTP Request twice before posting to see if it is still up.   
